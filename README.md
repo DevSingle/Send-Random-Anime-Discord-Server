@@ -9,4 +9,4 @@
 
 
 ✨ Config:
-1. ✨Set You Bot Prefix, Token, Anime Channel in Line 1, 2, 3
+1. Set You Bot Prefix, Token, Anime Channel in Line 1, 2, 3
