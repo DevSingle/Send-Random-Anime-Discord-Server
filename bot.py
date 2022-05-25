@@ -1,6 +1,6 @@
 BOT_PREFIX = "Bot prefix"
 BOT_TOKEN = "Bot Token"
-channel = "You Channel Id"
+CHANNEL_ID = "You Channel Id"
 import asyncio
 import nextcord
 from nextcord.ext import commands
@@ -15,7 +15,7 @@ async def anime():
         embed=nextcord.Embed(title=f'Anime Bite', color=0x01ad43)
         embed.set_image(url=(anime))
         embed.set_footer(text="< Black / Eye > ™")
-        await bot.get_channel(971317753497665566).send(embed=embed)
+        await bot.get_channel(CHANNEL_ID).send(embed=embed)
         await asyncio.sleep(900)
     
 @bot.event
